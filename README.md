@@ -20,4 +20,5 @@ The **folder structure** is as follows:
 **Dependencies:**
 
 Python 3
+
 VS Code
