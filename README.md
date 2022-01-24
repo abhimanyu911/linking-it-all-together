@@ -3,7 +3,7 @@ This repo contains code challenges and individual practice for each day of the w
 
 The **folder structure** is as follows:
 
-\---**Day 1**
+**Day 1**
 
     \---Assignments(Challenges)
           Question1.py
