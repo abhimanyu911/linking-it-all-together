@@ -1,8 +1,9 @@
-# linking-it-all-together-dsa
-This repo contains code challenges and individual practice for each day of the week 3 technical training at Searce Inc
-
-The **folder structure** is as follows:
-
+Folder PATH listing for volume Windows-SSD
+Volume serial number is BEDB-611C
+C:.
+|   output.doc
+|   README.md
+|   
 \---Day 1
     +---Assignments(Challenges)
     |       Question1.py
@@ -13,8 +14,4 @@ The **folder structure** is as follows:
             DLLOps.py
             QueueUsingSLL.py
             StackUsingSLL.py
-
-**Dependencies:**
-
-Python 3
-VS Code
+            
