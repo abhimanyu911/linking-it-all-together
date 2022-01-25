@@ -1,5 +1,3 @@
-#Using collections library to create a stack
-
 from collections import deque
 
 class Stack:
@@ -21,14 +19,21 @@ class Stack:
     def size(self):
         return len(self.stack)
 
-
 if __name__ == '__main__':
 
+    print("Enter word:")
+    word = input()
     myStack = Stack()
+    #PUSH ALL CHARACTERS
+    for char in word:
+        myStack.push(char)
+    word_reverse = ""
 
-    myStack.push(5)
-    myStack.push(4)
-    myStack.push(3)
-    print("Size: "+str(myStack.size()))
-    print("Popped element: "+str(myStack.pop()))
-    print("Top of stack: "+str(myStack.peek()))
+    #POPPING ALL CHARACTERS RETURNS THEM IN A REVERSE ORDER
+    while not(myStack.isEmpty()):
+        word_reverse+=myStack.pop()
+
+    if word == word_reverse:
+        print("PALINDROME")
+    else:
+        print("NOT A PALINDROME")
